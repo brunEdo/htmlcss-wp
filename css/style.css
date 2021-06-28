@@ -94,9 +94,15 @@ nav li a {
     position: absolute;
     left: 50px;
     bottom: 70px;
+    width: 50%;
 }
 .hero-text * {
     color: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
 }
 
 /* content section  */
