@@ -44,10 +44,27 @@ nav li a {
     color: #9F9F9F;
 }
 
+/* hero */
+.hero {
+    height: 500px;
+    border-radius: 16px;
+    position: relative;
+
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero-text {
+    position: absolute;
+    left: 50px;
+    bottom: 70px;
+    color: #fff;
+}
+
 /* columns */
 .col-left, .col-center, .col-right {
     float: left;
-
 }
 
 .col-left, .col-right {
