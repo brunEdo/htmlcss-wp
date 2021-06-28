@@ -6,6 +6,10 @@
 }
 
 /* common */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .container {
     width: 80%;
     margin: auto;
@@ -33,6 +37,25 @@ a:hover, a:focus {
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* font  */
+h1 {
+    font-size: 40px;
+    letter-spacing: -1px;
+    font-weight: 600;
+}
+h2 {
+    font-size: 30px;
+    font-weight: 400;
+}
+h4 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+p {
+    color: #9F9F9F;
 }
 
 /* header  */
@@ -71,6 +94,8 @@ nav li a {
     position: absolute;
     left: 50px;
     bottom: 70px;
+}
+.hero-text * {
     color: #fff;
 }
 
