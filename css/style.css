@@ -17,9 +17,34 @@
     clear: both;
 }
 
+a:hover, a:focus {
+    cursor: pointer;
+    color: #000;
+}
 
+/* header  */
+.logo {
+    height: 70px;
+    border-right: solid 1px #E5E5E5;
+    padding-right: 20px;
+    margin-top: 10px;
+}
 
+/* menu */
+nav {
+    margin: 40px 0;
+}
+nav li {
+    display: inline;
+    margin-right: 16px;
+}
+nav li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #9F9F9F;
+}
 
+/* columns */
 .col-left, .col-center, .col-right {
     float: left;
 
