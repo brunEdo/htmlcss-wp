@@ -8,8 +8,7 @@
 /* common */
 .container {
     width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 .clearfix::after {
@@ -18,59 +17,19 @@
     clear: both;
 }
 
-/* pink header  */
-header {
-    background-color: #E579E6;
-    height: 140px;
-    margin-top: 25px;
-}
 
-/* first yellow section */
-section:first-child {
-    background-color: #E1D67A;
-    height: 500px;
-    margin: 30px 0;
-}
 
-/* second blue section */
-section:last-child {
-    background-color: #0086FF;
-} 
 
-/* div floating light-blue  */
-/* section:last-child div {
-    background-color: #ABCFE7;
-} */
-
-/* purple footer  */
-footer {
-    background-color: #8801FE;
-    height: 60px;
-    margin: 10px 0 30px;
-}
-
-/* first light-blue div  */
-.first-row {
-    height: 90px;
-    background-color: #ABCFE7;
-}
-
-/* row with three columns */
-.second-row {
-    padding: 24px 0;
-}
-
-.col-1, .col-2-center {
+.col-left, .col-center, .col-right {
     float: left;
-    background-color: #ABCFE7;
-    height: 540px;
+
 }
 
-.col-1 {
+.col-left, .col-right {
     width: calc(25% - (40px / 3));
 }
 
-.col-2-center {
+.col-center {
     width: calc(50% - (40px / 3));
     margin: 0 20px;
 }
