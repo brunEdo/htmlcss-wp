@@ -39,6 +39,13 @@ a:hover, a:focus {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
+.fit-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
 /* font  */
 h1 {
     font-size: 40px;
@@ -86,9 +93,9 @@ nav li a {
     border-radius: 16px;
     position: relative;
 
-    background-image: url("../img/banner.jpg");
+    /* background-image: url("../img/banner.jpg");
     background-size: cover;
-    background-position: center center;
+    background-position: center center; */
 }
 .hero-text {
     position: absolute;
@@ -98,6 +105,8 @@ nav li a {
 }
 .hero-text * {
     color: #fff;
+
+    /* to clamp the text with the ellipsis */
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -134,7 +143,7 @@ nav li a {
     border-radius: 16px;
 }
 
-.col-left .col-img{
+/* .col-left .col-img{
     background-image: url("../img/img-1.jpg");
     background-size: cover;
     background-position: center center;
@@ -148,7 +157,7 @@ nav li a {
     background-image: url("../img/img-3.jpg");
     background-size: cover;
     background-position: center center;
-}
+} */
 
 /* footer  */
 footer {
